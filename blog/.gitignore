@@ -10,3 +10,4 @@ db.sqlite3 # local database where all the files are stored; it should not be add
  # PythonAnywhere is a simple deployment process and is free for small applications
 /static
 .DS_Store
+.idea/workspace.xml
