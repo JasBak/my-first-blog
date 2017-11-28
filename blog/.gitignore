@@ -1,13 +1,16 @@
-*.pyc
-*~
-__Pycache__
-myvenv
-db.sqlite3 # local database where all the files are stored; it should not be added to the repository because
+# local database where all the files are stored; it should not be added to the repository because
 # the website on PythonANywhere is going to be using a different database (prolly MySQL)
 #it means that all of the posts you created so far are going to stay and only be available locally,
 #but you're going to have to add them again on production.
- #You should think of your local database as a good playground where you can test different things
- # PythonAnywhere is a simple deployment process and is free for small applications
+#You should think of your local database as a good playground where you can test different things
+# PythonAnywhere is a simple deployment process and is free for small applications
+
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
 /static
 .DS_Store
 .idea/workspace.xml
+
